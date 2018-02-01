@@ -1,6 +1,6 @@
 # Mitigar estructuras de control de flujo (Ifs, switches)Contexto
 
-## tearFlowTypeDown	
+## Avolir FlowType Enum (tearFlowTypeDown)
 
 En las APPs se estan sumando distintos flujos, de manera progresiva, los cuales nos fuerzan a estar preguntando continuamente en qué flujo estamos y esto se traduce en la siguiente estructora (paradigma estructurado). 
 
