@@ -52,6 +52,8 @@ public class PaymentOnlyOptionsLoadingTitleGenerator {
 
 ## Alternativa
 
+Aplicación de patrón [Double Dispatch](https://en.wikipedia.org/wiki/Double_dispatch).
+
 ### Diagrama de clases
 
 #### Jerarquía de Flow
