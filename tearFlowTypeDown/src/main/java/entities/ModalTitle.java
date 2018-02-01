@@ -3,7 +3,8 @@ package entities;
 import entities.flow.ContractFlow;
 import entities.flow.ReservationFlow;
 
-public class ModalTitle implements WordForFlow {
+public class
+implements WordForFlow {
     @Override
     public String asString2(ContractFlow flow) {
         return "Titulo de modal para contract";
