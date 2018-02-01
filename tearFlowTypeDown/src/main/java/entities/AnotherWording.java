@@ -2,21 +2,21 @@ package entities;
 
 import entities.flow.ContractFlow;
 import entities.flow.ReservationFlow;
+import entities.flow.SubscriptionFlow;
 
-public class
-implements WordForFlow {
+public class AnotherWording implements Word {
     @Override
-    public String asString2(ContractFlow flow) {
+    public String asString(ContractFlow flow) {
         return "Titulo de modal para contract";
     }
 
     @Override
-    public String asString2(ReservationFlow flow) {
+    public String asString(ReservationFlow flow) {
         return "Titulo de modal para reservation";
     }
 
     @Override
-    public String asString2(Subscription flow) {
+    public String asString(SubscriptionFlow flow) {
         return "Titulo de modal para contract";
     }
 }

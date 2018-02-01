@@ -1,7 +1,5 @@
 package entities.flow;
 
-import entities.Subscription;
-
 public class FlowFactory {
 
     public Flow flowType(String flowType) {
@@ -14,7 +12,7 @@ public class FlowFactory {
                 result = new ContractFlow();
             break;
             case "S":
-                result = new Subscription();
+                result = new SubscriptionFlow();
             break;
             default:
                 result = new ContractFlow();

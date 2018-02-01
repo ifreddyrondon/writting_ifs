@@ -1,7 +1,7 @@
 package entities.flow;
 
-import entities.WordForFlow;
+import entities.Word;
 
 public interface Flow {
-    String asString2(WordForFlow word);
+    String asString(Word word);
 }
