@@ -5,9 +5,6 @@
 En las APPs se estan sumando distintos flujos, de manera progresiva, los cuales nos fuerzan a estar preguntando continuamente en qué flujo estamos y esto se traduce en la siguiente estructora (paradigma estructurado):
 
 ```java
-/**
- * Created by klmartinez on 1/31/18.
- */
 public class PaymentOnlyOptionsLoadingTitleGenerator {
 
     @FlowType
