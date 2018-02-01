@@ -7,4 +7,11 @@ En las APPs se estan sumando distintos flujos, de manera progresiva, los cuales 
 [Proyecto][tearFlowTypeDown] donde se evalua una alternativa a la utilización de ```switch```.
 
 
+---
+
+## Contact
+
+Mail: diego.sanchez@mercadolibre.com
+Twitter: https://twitter.com/dsminotauro
+
 [tearFlowTypeDown]: ./tearFlowTypeDown
