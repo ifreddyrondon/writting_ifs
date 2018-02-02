@@ -8,6 +8,23 @@ import static org.junit.Assert.assertEquals;
 public class TestReservationSubtitle {
 
     @Test
+    public void testModealTitleFlowSubscriptions3() {
+        Flow flow = new FlowFactory().flowType("S");
+        Word modalTitle = new TinyWroding();
+
+        // We don't care about this test. We only want IDE to compile classes
+        assertEquals(1,1);
+    }
+
+    @Test
+    public void testModealTitleFlowSubscriptions2() {
+        Flow flow = new FlowFactory().flowType("S");
+        Word modalTitle = new HugeWroding();
+
+        // We don't care about this test. We only want IDE to compile classes
+        assertEquals(1,1);    }
+
+    @Test
     public void testModealTitleFlowSubscriptions() {
         Flow flow = new FlowFactory().flowType("S");
         Word modalTitle = new AnotherWording();
