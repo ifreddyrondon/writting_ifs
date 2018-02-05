@@ -20,3 +20,5 @@ Como alternativa a plagar el código verificando si el valor de la variable es `
 
 Aplicación de patrón [Maybe](https://wiki.haskell.org/Maybe) inspirado en la programación funcional. 
 
+Hoy día en Java 8 existe [Optional<T>](https://docs.oracle.com/javase/8/docs/api/java/util/Optional.html) que cumple la función del ```Maybe```.  Para aquellos proyectos que no han migrado aún a Java 8 pueden utilizar este patrón.
+
