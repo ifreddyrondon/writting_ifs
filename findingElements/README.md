@@ -39,6 +39,10 @@ En el contexto de la programación orientada a objetos existe el concepto de col
 
 Apalancandonos en el projecto [Dealing With Null Gracefully][dealingWithNull] podemos implementar un comportamiento similiar a este pero para colecciones.
 
+## Consecuencias negativas
+
+- Viola el principio [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
+
 
 
 [dealingWithNull]: ../dealingWithNull
