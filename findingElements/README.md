@@ -41,4 +41,4 @@ Apalancandonos en el projecto [Dealing With Null Gracefully][dealingWithNull] po
 
 
 
-[dealingWithNull]: ./dealingWithNull
+[dealingWithNull]: ../dealingWithNull
