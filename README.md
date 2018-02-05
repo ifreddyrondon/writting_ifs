@@ -9,17 +9,17 @@ En las APPs se estan sumando distintos flujos, de manera progresiva, los cuales 
 
 ## Manejando null apropiadamente (dealingWithNull gracefully)
 
-En el contexto de Java (ocurre en otros leguajes también) existe el dato primitivo ```null``` que es ajeno a la teoría de objetos. Esto no es grave per seaunque fuerza que los programadores verifiquen este valor utilizando la instrucción ```if```. 
+En el contexto de Java (ocurre en otros leguajes también) existe el dato primitivo ```null``` que es ajeno a la teoría de objetos. Esto no es grave per se aunque fuerza que los programadores verifiquen este valor utilizando la instrucción ```if```. 
 
-[Proyecto][dealingWithNull] donde se evalua una alternativa a la utilización del ```null``` y las estructuras de control que permiten el senso del valor (```if```).
+Creamos un [proyecto][dealingWithNull] donde se evalua una alternativa a la utilización del ```null``` y las estructuras de control que permiten el senso del valor (```if```).
 
 
 
 ## Manejando de exisitencia/ausencia de elementos en colecciones (findingElements)
 
-En el contexto de la programación orientada a objetos existe el concepto de colecciones, recurentemente los programadores tienen que saber si una colección contiene tal o cual elemento y tomar partida sobre el resultado de la operación de búsqueda. 
+En el contexto de la programación orientada a objetos existe el concepto de colecciones. Recurentemente los programadores tienen que saber si una colección contiene tal o cual elemento y tomar partida sobre el resultado de la operación de búsqueda. 
 
-[Proyecto][findingElements] donde se evalua una alternativa a la utilización del ```null``` y las estructuras de control que permiten el senso del valor (```if```) aplicandolo a la búsqueda de elementos en colecciones..
+Creamos un [proyecto][findingElements] donde se evalua una alternativa a la utilización del ```null``` y las estructuras de control que permiten el senso del valor (```if```) aplicandolo a la búsqueda de elementos en colecciones..
 
 
 ---
