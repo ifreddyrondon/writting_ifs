@@ -52,8 +52,8 @@ Esto nos fuerza a generar las abstracciones y entidades para cada una de las ins
     factory.map("me1", MercadoEnvio.class);
     factory.map("puis", Puis.class);
 
-    Payment payment = paymentFactory.createType("master");
-    Shipment shipment = shippingFactory.createType("me2");
+    Payment payment = paymentFactory.createType("master", new PaymentDTO() );
+    Shipment shipment = shippingFactory.createType("me2", new ShippingDTO() );
 
     Mapper winner = payment.challenge( shipment );
 
