@@ -22,6 +22,13 @@ En el contexto de la programación orientada a objetos existe el concepto de col
 Creamos un [proyecto][findingElements] donde se evalua una alternativa a la utilización del ```null``` y las estructuras de control que permiten el senso del valor (```if```) aplicandolo a la búsqueda de elementos en colecciones..
 
 
+## Convirtiendo tipos en instancias (creatingInstancesBasedOnType)
+
+En muchas ocaciones dado un enum o un string (genericamente clave/key) creamos una instancia de un objeto. Recurrentemente el programador crea un ```switch``` para discriminar el valor de la clave para así crear la instancia específica. 
+
+Creamos un [proyecto][creatingInstancesBasedOnType] donde se evalua una alternativa al ```switch```.
+
+
 ---
 
 ## Contact
@@ -33,3 +40,4 @@ Twitter: https://twitter.com/dsminotauro
 [tearFlowTypeDown]: ./tearFlowTypeDown
 [dealingWithNull]: ./dealingWithNull
 [findingElements]: ./findingElements
+[creatingInstancesBasedOnType]: ./creatingInstancesBasedOnType
