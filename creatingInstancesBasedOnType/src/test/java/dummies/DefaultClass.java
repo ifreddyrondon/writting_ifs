@@ -1,3 +1,5 @@
+package dummies;
+
 public class DefaultClass implements AnInterface {
     private final String arg;
 

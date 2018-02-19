@@ -1,3 +1,5 @@
+package dummies;
+
 public class TypeOneClass implements AnInterface {
     private final String s;
     private final Integer i;

@@ -8,7 +8,7 @@ import java.util.IdentityHashMap;
  */
 public class FactoryBasedOnType <Clazz, Type> {
     private final Class<? extends Clazz> defaultClass;
-    private HashMap<String, Class<? extends Clazz>> type2clazz;
+    private HashMap<Type, Class<? extends Clazz>> type2clazz;
 
     private Class<? extends Clazz> getClassForType(Type type) {
         return type2clazz.getOrDefault(type, defaultClass);
@@ -19,7 +19,7 @@ public class FactoryBasedOnType <Clazz, Type> {
         this.type2clazz = new HashMap<>();
     }
 
-    public void map(String type, Class<? extends Clazz> clazz) {
+    public void map(Type type, Class<? extends Clazz> clazz) {
         this.type2clazz.put(type, clazz);
     }
 
