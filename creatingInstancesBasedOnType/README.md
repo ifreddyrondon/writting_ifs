@@ -15,15 +15,15 @@ Esta herramienta del lenguaje es utilizada también en los siguientes casos:
 - [ToggleAttachmentStatus.groovy](https://github.com/mercadolibre/fury_buyingflow-cart/blob/develop/src/groovy/com/mercadolibre/api/flow/graph/inputs/constants/ToggleAttachmentStatus.groovy)
 
 Un patrón semejante se vió en los siguientes códigos: 
-- src/groovy/com/mercadolibre/api/flow/action/userIdentification/UserIdentificationInputDataAdd.groovy
-- src/groovy/com/mercadolibre/api/flow/exceptions/apps/ErrorAppsResponseFactory.groovy
-- src/groovy/com/mercadolibre/buyingflow/business/AccreditationTimeBO.groovy
-- src/groovy/com/mercadolibre/buyingflow/dto/parameters/GetShippingOptionsParametersFactory.groovy
-- src/groovy/com/mercadolibre/buyingflow/mapper/OperationStatusMapper.groovy
-- src/groovy/com/mercadolibre/buyingflow/mapper/PaymentStatusBEMapper.groovy
-- src/groovy/com/mercadolibre/buyingflow/mapper/shipping/deliverypromise/DeliveryPromiseSimpleFactory.groovy
-- src/groovy/com/mercadolibre/commands/DestinationCommand.groovy
-- src/groovy/com/mercadolibre/commands/resolver/DestinationCommandResolver.groovy
+- [UserIdentificationInputDataAdd](https://github.com/mercadolibre/fury_buyingflow-cart/blob/feature/discounts/test/unit/com/mercadolibre/api/flow/action/userIdentification/UserIdentificationInputDataAddSpec.groovy)
+- [ErrorAppsResponseFactory](https://github.com/mercadolibre/fury_buyingflow-cart/blob/feature/discounts/src/groovy/com/mercadolibre/api/flow/exceptions/apps/ErrorAppsResponseFactory.groovy)
+- [AccreditationTimeBO](https://github.com/mercadolibre/fury_buyingflow-cart/blob/feature/discounts/src/groovy/com/mercadolibre/buyingflow/business/AccreditationTimeBO.groovy)
+- [GetShippingOptionsParametersFactory](https://github.com/mercadolibre/fury_buyingflow-cart/blob/feature/discounts/src/groovy/com/mercadolibre/buyingflow/dto/parameters/GetShippingOptionsParametersFactory.groovy)
+- [OperationStatusMapper](https://github.com/mercadolibre/fury_buyingflow-cart/blob/feature/discounts/src/groovy/com/mercadolibre/buyingflow/mapper/OperationStatusMapper.groovy)
+- [PaymentStatusBEMapper](https://github.com/mercadolibre/fury_buyingflow-cart/blob/feature/discounts/src/groovy/com/mercadolibre/buyingflow/mapper/PaymentStatusBEMapper.groovy)
+- [DeliveryPromiseSimpleFactory](https://github.com/mercadolibre/fury_buyingflow-cart/blob/feature/discounts/src/groovy/com/mercadolibre/buyingflow/mapper/shipping/deliverypromise/DeliveryPromiseSimpleFactory.groovy)
+- [DestinationCommand](https://github.com/mercadolibre/fury_buyingflow-cart/blob/feature/discounts/src/groovy/com/mercadolibre/commands/DestinationCommand.groovy)
+- [DestinationCommandResolver](https://github.com/mercadolibre/fury_buyingflow-cart/blob/feature/discounts/src/groovy/com/mercadolibre/commands/resolver/DestinationCommandResolver.groovy)
 
 La ausencia de entidedades conspira contra la escalabilidad del código y genera archivos con un
 
