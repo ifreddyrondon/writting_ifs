@@ -1,3 +1,4 @@
+package dummies;
 
 public class TypeTwoClass implements AnInterface {
     private final String s;
